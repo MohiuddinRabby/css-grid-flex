@@ -6,7 +6,7 @@
     align-items: center; */
     /* align-items: stretch; by default*/
 }
-.container-1 div{
+.container-1 div,.container-2 div{
     border: 1px solid;
     background-color: #fff;
     padding: 10px;
@@ -23,4 +23,13 @@
 .box-3 {
     flex: 1;
     /* order: 1; */
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container-two-box{
+    flex-basis: 27%;
+
 }
