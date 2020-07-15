@@ -1,0 +1,14 @@
+.box {
+  width: 400px;
+  height: 200px;
+  border: 1px solid green;
+  overflow: hidden;
+  margin: 10px;
+}
+.box2 {
+  width: 400px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 10px;
+  overflow: scroll;
+}
