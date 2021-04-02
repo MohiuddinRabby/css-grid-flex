@@ -1,0 +1,21 @@
+body,
+html {
+  background-color: #ffb84d;
+  margin: 10px;
+}
+.container div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffb84d;
+  background-color: #39ac73;
+}
+.container div:nth-child(1) {
+  background-color: #39ac73;
+}
+.container div:nth-child(2) {
+  background-color: #ff5050;
+}
+.container div:nth-child(3) {
+  background-color: #39ac73;
+}
