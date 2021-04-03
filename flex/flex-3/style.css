@@ -1,9 +1,11 @@
+body {
+  margin: 0;
+}
 body,
 html {
   background-color: #f5bc67;
-}
-body {
-  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
 .container div {
   padding: 10px;
@@ -11,7 +13,6 @@ body {
   font-size: 2em;
   color: #ffb84d;
   background-color: #39ac73;
-  height: 100%;
 }
 .container div:nth-child(1) {
   background-color: #39ac73;
