@@ -10,7 +10,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  color: #fff;
+  color: #00131a;
 }
 html {
   scroll-behavior: smooth;
@@ -66,7 +66,9 @@ a {
 }
 /* card */
 .card {
-  width: 18rem;
+  width: 20rem;
+  padding: 0.5rem 0.5rem;
+  box-shadow: 0 10px 6px -6px #f5f5f0;
 }
 
 /* ---------------- */
@@ -76,9 +78,12 @@ a {
 /* navbar */
 #navbar {
   display: flex;
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   padding: 1rem;
   background: #00131a;
+  position: sticky;
 }
 .nav-logo span {
   color: #0099cc;
@@ -105,6 +110,7 @@ a {
   background: url("./img/bg.jpg");
   background-size: cover;
   height: 60rem;
+  color: #fff;
 }
 #showcase .showcase-description {
   display: flex;
@@ -118,12 +124,33 @@ a {
 #showcase .showcase-description p {
   font-size: 1.1rem;
 }
-/* about */
-#about {
-  color: #00131a;
-}
-.about-wrapper {
+/* service */
+.service-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.card-icon-circle {
+  background: #0099cc;
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+/* about */
+#about {
+  display: flex;
+}
+#about div {
+  flex: 1;
+}
+#about .about-img {
+  background: url("./img/about.jpg") no-repeat center center/cover;
+}
+#about .about-description {
+  margin-left: 50px;
+}
+#about .about-description ul li {
+  list-style: none;
 }
