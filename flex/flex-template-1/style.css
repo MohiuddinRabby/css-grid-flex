@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  list-style: none;
+}
+ul li {
+  list-style: none;
+  padding-top: 10px;
+}
+#nav {
+  border: 1px solid teal;
+}
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main {
+  display: flex;
+  border: 1px solid tomato;
+  justify-content: space-between;
+  padding: 20px;
+}
+#main-content {
+  padding-left: 50px;
+}
+footer {
+  border: 1px solid blueviolet;
+}
